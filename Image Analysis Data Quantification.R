@@ -12,11 +12,11 @@ library(patchwork)
 
 #Import Cell Profiler data
 
-Control_Nuclei=read.csv("C:/Users/grant/OneDrive - Nexus365/Cowley Lab/Columbus Data/Control Nuclei.csv")
-Day_2_Nuclei=read.csv("C:/Users/grant/OneDrive - Nexus365/Cowley Lab/Columbus Data/Day 2 Nuclei.csv")
-Day_4_Nuclei=read.csv("C:/Users/grant/OneDrive - Nexus365/Cowley Lab/Columbus Data/Day 4 Nuclei.csv")
-Day_7_Nuclei=read.csv("C:/Users/grant/OneDrive - Nexus365/Cowley Lab/Columbus Data/Day 7 Nuclei.csv")
-Day_14_Nuclei=read.csv("C:/Users/grant/OneDrive - Nexus365/Cowley Lab/Columbus Data/Day 14 Nuclei.csv")
+Control_Nuclei=read.csv("C:/Users/REDACTED/OneDrive - Nexus365/Cowley Lab/Columbus Data/Control Nuclei.csv")
+Day_2_Nuclei=read.csv("C:/Users/REDACTED/OneDrive - Nexus365/Cowley Lab/Columbus Data/Day 2 Nuclei.csv")
+Day_4_Nuclei=read.csv("C:/Users/REDACTED/OneDrive - Nexus365/Cowley Lab/Columbus Data/Day 4 Nuclei.csv")
+Day_7_Nuclei=read.csv("C:/Users/REDACTED/OneDrive - Nexus365/Cowley Lab/Columbus Data/Day 7 Nuclei.csv")
+Day_14_Nuclei=read.csv("C:/Users/REDACTED/OneDrive - Nexus365/Cowley Lab/Columbus Data/Day 14 Nuclei.csv")
 
 #Clean data to include the Well ID and Mean PU1 Signal Intensity of each object (nucleus)
 
@@ -291,4 +291,5 @@ final_plot <- plot_microglia + plot_others + plot_layout(widths = c(1, 4))
 
 # Display the final plot
 final_plot
+
 
